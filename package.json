@@ -1,0 +1,39 @@
+{
+  "name": "usemagic-theme",
+  "version": "1.0.0",
+  "repository": "https://github.com/61magical/usemagic-theme",
+  "description": " usemagic-theme is a javascript library, it is just a function that returns an object of css color code, check Magical design system for more info",
+  "sideEffects": false,
+  "homepage": "https://coming-soon.web.app",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "clean": "rm -rf dist/",
+    "develop": "microbundle watch --jsx React.createElement",
+    "build": "npm run clean && microbundle --nosourcemap --jsx React.createElement && tsc -p jsconfig.json",
+    "check": "tsc -p jsconfig.json --watch"
+  },
+  "keywords": [
+    "css-in-js",
+    "styled-components",
+    "magical",
+    "magic",
+    "styled-system",
+    "styled-css",
+    "css-in-react",
+    "react",
+    "react-dom"
+  ],
+  "author": "61Magical",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.0",
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
