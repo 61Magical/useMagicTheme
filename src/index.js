@@ -1,16 +1,16 @@
 /**
  * @callback useMagicTheme
  * @param {boolean} isDarkMode
- * @returns {{ background: "#080808" | "#f4faff",depthColorColor: "#0d0d0d" | "#e9f1f7",depthColorColorTwo: "#191919" | "#e2e9f0",depthColorColorThree: "#262626" | "#dae2e8",color: "#f8f9fa" | "#212529",colorTwo: "#bdbdbd" | "#56595c",colorThree: "#525252" | "#7e8183",brandColor: "#6741d9" | "#7920FF",brandColorHover: "#7e5edf" | "#8d41ff",brandColorActive: "#752be6" | "#7837d9",brandColorDisable: "#392477" | "#43128c",brandColorTwo: "#14c0c0" | "#19F0F0",brandColorTwoHover: "#5bd3d3" | "#18e4e4",brandColorTwoActive: "#4db3b3" | "#14c2c2",brandColorTwoDisable: "#0b6a6a" | "#0e8484",assistantBrandColor: "#FFB647" | "#FFB647",assistantBrandColorHover: "#ffc163" | "#f4b95f",assistantBrandColorActive: "#f2b75e" | "#e8b05a",assistantBrandColorDisable: "#8c6427" | "#855f25"}}
+ * @returns {{ background: "#080808" | "#dde4eb",depthColorColor: "#0d0d0d" | "#ebf3fa",depthColorColorTwo: "#191919" | "#f4faff",depthColorColorThree: "#262626" | "#ffffff",color: "#f8f9fa" | "#212529",colorTwo: "#bdbdbd" | "#56595c",colorThree: "#525252" | "#7e8183",brandColor: "#6741d9" | "#7920FF",brandColorHover: "#7e5edf" | "#8d41ff",brandColorActive: "#752be6" | "#7837d9",brandColorDisable: "#392477" | "#43128c",brandColorTwo: "#14c0c0" | "#19F0F0",brandColorTwoHover: "#5bd3d3" | "#18e4e4",brandColorTwoActive: "#4db3b3" | "#14c2c2",brandColorTwoDisable: "#0b6a6a" | "#0e8484",assistantBrandColor: "#FFB647" | "#FFB647",assistantBrandColorHover: "#ffc163" | "#f4b95f",assistantBrandColorActive: "#f2b75e" | "#e8b05a",assistantBrandColorDisable: "#8c6427" | "#855f25"}}
  */
 /**@type {useMagicTheme} */
 export const useMagicTheme = ( isDarkMode ) =>
 {
     return {
-        background: isDarkMode ? "#080808" : "#f4faff",
-        depthColorColor: isDarkMode ? "#0d0d0d" : "#e9f1f7",
-        depthColorColorTwo: isDarkMode ? "#191919" : "#e2e9f0",
-        depthColorColorThree: isDarkMode ? "#262626" : "#dae2e8",
+        background: isDarkMode ? "#080808" : "#dde4eb",
+        depthColorColor: isDarkMode ? "#0d0d0d" : "#ebf3fa",
+        depthColorColorTwo: isDarkMode ? "#191919" : "#f4faff",
+        depthColorColorThree: isDarkMode ? "#262626" : "#ffffff",
         color: isDarkMode ? "#f8f9fa" : "#212529",
         colorTwo: isDarkMode ? "#bdbdbd" : "#56595c",
         colorThree: isDarkMode ? "#525252" : "#7e8183",
