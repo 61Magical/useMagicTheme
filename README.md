@@ -1,5 +1,5 @@
 <div
-    style='text-align:center; cursor:pointer'; height:300px
+    style='text-align:center; cursor:pointer; height:300px; display:flex; justify-content:center; align-items:center; flex-direction:column;'
 > <br/>
  <br/>
  <br/>
