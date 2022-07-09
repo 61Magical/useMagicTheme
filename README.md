@@ -1,5 +1,5 @@
 <div
-    style='text-align:center; cursor:pointer'
+    style='text-align:center; cursor:pointer'; height:300px
 > <br/>
  <br/>
  <br/>
