@@ -1,6 +1,6 @@
 {
   "name": "usemagic-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": "https://github.com/61magical/usemagic-theme",
   "description": " usemagic-theme is a javascript library, it is just a function that returns an object of css color code, check Magical design system for more info",
   "sideEffects": false,
@@ -10,22 +10,19 @@
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "scripts": {
-    "prepare": "npm run build",
+    "check": "tsc -p jsconfig.json --watch",
     "clean": "rm -rf dist/",
-    "develop": "microbundle watch --jsx React.createElement",
-    "build": "npm run clean && microbundle --nosourcemap --jsx React.createElement && tsc -p jsconfig.json",
-    "check": "tsc -p jsconfig.json --watch"
+    "copy": "cp README.md CHANGELOG.md dist",
+    "dev": "microbundle watch",
+    "prepare": "npm run clean && microbundle --jsx React.createElement && npm run copy && tsc -p jsconfig.json",
+    "start": "npm run prepare && npm publish"
   },
   "keywords": [
-    "css-in-js",
-    "styled-components",
-    "magical",
-    "magic",
-    "styled-system",
-    "styled-css",
-    "css-in-react",
-    "react",
-    "react-dom"
+    "usemagic",
+    "usemagic-theme",
+    "css",
+    "color",
+    "merlin-color"
   ],
   "author": "61Magical",
   "license": "MIT",
