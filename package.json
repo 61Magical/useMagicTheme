@@ -1,6 +1,6 @@
 {
   "name": "usemagic-theme",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "repository": "https://github.com/61magical/usemagic-theme",
   "description": " usemagic-theme is a javascript library, it is just a function that returns an object of css color code, check Magical design system for more info",
   "sideEffects": false,
